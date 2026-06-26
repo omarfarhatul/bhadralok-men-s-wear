@@ -9,7 +9,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "পাঞ্জাবি ও পায়জামা",
     price: 3450,
     originalPrice: 4200,
-    image: "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=600",
+    image: "../public/images/panjabiF.webp",
     images: [
       "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=600",
       "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=600"
@@ -126,7 +126,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "পোলো ও টি-শার্ট",
     price: 1250,
     originalPrice: 1600,
-    image: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=600",
+    image: "../public/images/jolpi_polo.webp",
     images: [
       "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=600"
     ],
