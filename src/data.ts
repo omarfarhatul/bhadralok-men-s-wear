@@ -409,7 +409,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "পাঞ্জাবি ও পায়জামা",
     price: 3850,
     originalPrice: 4500,
-    image: "https://images.unsplash.com/photo-1597983073492-bc24018b3791?q=80&w=600",
+    image: "../public/images/SherwaniPanjabi.jpg",
     images: [
       "https://images.unsplash.com/photo-1597983073492-bc24018b3791?q=80&w=600"
     ],
