@@ -1,0 +1,6 @@
+{
+  "name": "Bhadralok Men's Wear",
+  "description": "ভদ্রলোক - A premium Bengali Men's Fashion store integrated with an interactive AI Personal Stylist (ভদ্রলোক AI), featuring rich collections of Panjabis, Casual & Formal Wear, shoes, accessories, and a custom checkout experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
