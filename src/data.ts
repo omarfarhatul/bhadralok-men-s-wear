@@ -126,7 +126,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "পোলো ও টি-শার্ট",
     price: 1250,
     originalPrice: 1600,
-    image: "../public/images/jolpi_polo.webp",
+    image: "/images/jolpi_polo.webp",
     images: [
       "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=600"
     ],
