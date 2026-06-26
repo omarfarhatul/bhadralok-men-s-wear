@@ -164,7 +164,7 @@ export default function HeroSection({ language, openAiStylist, setSelectedCatego
                 {/* Leaning Model - Beautiful High Resolution Colorful Fashion T-shirt Model */}
                 <div className="absolute bottom-0 h-[85%] sm:h-[95%] aspect-square flex items-end justify-center overflow-visible">
                   <img 
-                    src="../public/images/t-Shirt.webp" 
+                    src="/images/t-Shirt.webp" 
                     alt="T-shirt model avatar" 
                     className="h-[90%] object-contain filter drop-shadow-[0_12px_15px_rgba(0,0,0,0.18)] transform hover:scale-105 transition duration-500" 
                     referrerPolicy="no-referrer"
@@ -281,7 +281,7 @@ export default function HeroSection({ language, openAiStylist, setSelectedCatego
                 <div className="absolute w-32 sm:w-48 aspect-square bg-[#E0D8C3] rounded-full opacity-40 blur-xl"></div>
                 <div className="absolute bottom-0 h-[85%] sm:h-[95%] aspect-square flex items-end justify-center overflow-visible">
                   <img 
-                    src="../public/images/panjabi3.jpeg" 
+                    src="/images/panjabi3.jpeg" 
                     alt="Heritage model" 
                     className="h-full object-contain filter drop-shadow-[0_15px_18px_rgba(40,30,10,0.15)] transform hover:scale-105 transition duration-500" 
                     referrerPolicy="no-referrer"
