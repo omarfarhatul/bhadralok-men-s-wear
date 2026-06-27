@@ -155,7 +155,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "পোলো ও টি-শার্ট",
     price: 850,
     originalPrice: 1200,
-    image: "https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=600",
+    image: "/images/T-Shirt.avif",
     images: [
       "https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=600"
     ],
@@ -183,7 +183,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "ফরমাল স্যুট ও ব্লেজার",
     price: 8500,
     originalPrice: 12000,
-    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=600",
+    image: "/images/BlazerSuit.webp",
     images: [
       "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=600",
       "https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=600"
@@ -212,7 +212,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "ফরমাল স্যুট ও ব্লেজার",
     price: 4500,
     originalPrice: 5500,
-    image: "https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=600",
+    image: "/images/Slim-FitBlazer.jpg",
     images: [
       "https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=600"
     ],
@@ -297,7 +297,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "প্রিমিয়াম জুতো",
     price: 3850,
     originalPrice: 5200,
-    image: "https://images.unsplash.com/photo-1533867617858-e7b97e060509?q=80&w=600",
+    image: "/images/PennyLoafers.jpeg",
     images: [
       "https://images.unsplash.com/photo-1533867617858-e7b97e060509?q=80&w=600"
     ],
@@ -325,7 +325,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "প্রিমিয়াম জুতো",
     price: 4950,
     originalPrice: 6500,
-    image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=600",
+    image: "/images/OxfordShoes.jpg",
     images: [
       "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=600"
     ],
@@ -353,7 +353,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "বেল্ট, ওয়ালেট ও ঘড়ি",
     price: 2950,
     originalPrice: 3800,
-    image: "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=600",
+    image: "/images/LuxuryWatch.jpg",
     images: [
       "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=600"
     ],
@@ -436,7 +436,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "ক্যাজুয়াল শার্ট",
     price: 1950,
     originalPrice: 2600,
-    image: "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?q=80&w=600",
+    image: "/images/CottonShirt.jpg",
     images: [
       "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?q=80&w=600"
     ],
@@ -492,7 +492,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "প্রিমিয়াম জুতো",
     price: 5450,
     originalPrice: 6990,
-    image: "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?q=80&w=600",
+    image: "/images/ChelseaBoots.webp",
     images: [
       "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?q=80&w=600"
     ],
@@ -520,7 +520,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "বেল্ট, ওয়ালেট ও ঘড়ি",
     price: 3450,
     originalPrice: 4500,
-    image: "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=600",
+    image: "/images/MetallicWatch.webp",
     images: [
       "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=600"
     ],
@@ -574,7 +574,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "ক্যাজুয়াল শার্ট",
     price: 2150,
     originalPrice: 2800,
-    image: "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?q=80&w=600",
+    image: "/images/FormalShirt.jpg",
     images: [
       "https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?q=80&w=600"
     ],
@@ -629,7 +629,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "প্রিমিয়াম জুতো",
     price: 5950,
     originalPrice: 7500,
-    image: "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=600",
+    image: "/images/MonkStrap.jpg",
     images: [
       "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=600"
     ],
@@ -656,7 +656,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "বেল্ট, ওয়ালেট ও ঘড়ি",
     price: 1850,
     originalPrice: 2400,
-    image: "https://images.unsplash.com/photo-1627123424574-724758594e93?q=80&w=600",
+    image: "/images/BifoldWallet.jpg",
     images: [
       "https://images.unsplash.com/photo-1627123424574-724758594e93?q=80&w=600"
     ],
