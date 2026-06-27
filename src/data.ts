@@ -40,7 +40,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "পাঞ্জাবি ও পায়জামা",
     price: 4200,
     originalPrice: 4800,
-    image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=600",
+    image: "/images/RoyalBlueKabli.webp",
     images: [
       "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=600",
       "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=600"
@@ -69,7 +69,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "ক্যাজুয়াল শার্ট",
     price: 1850,
     originalPrice: 2400,
-    image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=600",
+    image: "/images/SkyBlueShirt.webp",
     images: [
       "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=600"
     ],
@@ -98,7 +98,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "ক্যাজুয়াল শার্ট",
     price: 1990,
     originalPrice: 2500,
-    image: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=600",
+    image: "/images/CheckShirt.jpg",
     images: [
       "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=600"
     ],
@@ -240,7 +240,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "প্যান্ট ও জিন্স",
     price: 1450,
     originalPrice: 1950,
-    image: "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?q=80&w=600",
+    image: "/images/Slim-FitGabardineChinos(Olive).jpg",
     images: [
       "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?q=80&w=600"
     ],
@@ -269,7 +269,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "প্যান্ট ও জিন্স",
     price: 1750,
     originalPrice: 2200,
-    image: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=600",
+    image: "/images/BlueDenimJeans.webp",
     images: [
       "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=600"
     ],
@@ -381,7 +381,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "বেল্ট, ওয়ালেট ও ঘড়ি",
     price: 1850,
     originalPrice: 2400,
-    image: "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?q=80&w=600",
+    image: "/images/Belt&CardHolderSet.jpg",
     images: [
       "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?q=80&w=600"
     ],
@@ -464,7 +464,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "পোলো ও টি-শার্ট",
     price: 1350,
     originalPrice: 1800,
-    image: "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=600",
+    image: "/images/Polo.webp",
     images: [
       "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=600"
     ],
@@ -547,7 +547,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "পাঞ্জাবি ও পায়জামা",
     price: 4250,
     originalPrice: 5200,
-    image: "https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?q=80&w=600",
+    image: "images/KabliSuitSet.webp",
     images: [
       "https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?q=80&w=600"
     ],
@@ -601,7 +601,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "পোলো ও টি-শার্ট",
     price: 950,
     originalPrice: 1300,
-    image: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=600",
+    image: "/images/CottonTeeMintGreen.webp",
     images: [
       "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=600"
     ],
@@ -684,7 +684,7 @@ export const PRODUCTS: Product[] = [
     categoryBn: "প্রিমিয়াম জুতো",
     price: 3250,
     originalPrice: 4200,
-    image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=600",
+    image: "/images/WhiteSneakers.jpg",
     images: [
       "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=600"
     ],
