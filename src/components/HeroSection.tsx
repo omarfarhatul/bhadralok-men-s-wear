@@ -109,7 +109,7 @@ export default function HeroSection({ language, openAiStylist, setSelectedCatego
               <div className="hidden md:flex items-center space-x-3 w-1/4 h-full justify-end relative z-10">
                 <div className="w-24 h-[85%] rounded-2xl overflow-hidden shadow-md transform -rotate-3 hover:rotate-0 transition duration-300">
                   <img 
-                    src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=600" 
+                    src="/images/panjabi_c.jpeg" 
                     alt="Shirt model" 
                     className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"
@@ -302,7 +302,6 @@ export default function HeroSection({ language, openAiStylist, setSelectedCatego
                   {language === "bn" ? "কালেকশন দেখুন" : "VIEW HERITAGE"}
                 </button>
               </div>
-
             </div>
 
             {/* Slide 5: Executive Footwear */}
@@ -338,7 +337,7 @@ export default function HeroSection({ language, openAiStylist, setSelectedCatego
                 <div className="absolute w-28 sm:w-40 aspect-square bg-[#D97706]/10 rounded-full blur-xl"></div>
                 <div className="absolute bottom-4 h-[85%] aspect-square flex items-end justify-center overflow-visible">
                   <img 
-                    src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=600" 
+                    src="/images/OxfordShoes.jpg" 
                     alt="Monk strap shoes" 
                     className="h-full object-contain filter drop-shadow-[0_12px_20px_rgba(0,0,0,0.15)] transform hover:scale-105 transition duration-500" 
                     referrerPolicy="no-referrer"
