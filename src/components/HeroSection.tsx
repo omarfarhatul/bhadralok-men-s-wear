@@ -131,11 +131,11 @@ export default function HeroSection({ language, openAiStylist, setSelectedCatego
             <div className="w-full flex-shrink-0 relative h-[320px] md:h-[400px] bg-[#E5E6EB] dark:bg-neutral-950 flex items-center justify-between p-6 sm:p-10 md:p-12 overflow-hidden select-none">
               
               {/* Left Title */}
-              <div className="flex-1 text-left relative z-20 pl-2">
-                <span className="text-[10px] md:text-xs font-bold uppercase tracking-[0.2em] text-neutral-500 mb-2 block">
+              <div className="flex-1 text-left relative z-20 pl-2 max-w-[70%] sm:max-w-none">
+                <span className="text-[10px] md:text-xs font-bold uppercase tracking-[0.2em] text-neutral-500 dark:text-neutral-400 mb-2 block">
                   {language === "bn" ? "প্রিমিয়াম কমফোর্ট" : "PREMIUM COMFORT"}
                 </span>
-                <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black text-[#2D2A26] dark:text-neutral-100 leading-none tracking-tight font-sans">
+                <h2 className="text-xl xs:text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black text-[#2D2A26] dark:text-neutral-100 leading-none tracking-tight font-sans">
                   T-SHIRT<br />COLLECTION
                 </h2>
                 
@@ -153,7 +153,7 @@ export default function HeroSection({ language, openAiStylist, setSelectedCatego
               </div>
 
               {/* Center Glowing Neon Frame & Model */}
-              <div className="relative w-[150px] sm:w-[220px] md:w-[320px] h-full flex items-center justify-center z-10">
+              <div className="absolute sm:relative bottom-0 right-0 sm:right-auto sm:bottom-auto w-[140px] sm:w-[220px] md:w-[320px] h-[85%] sm:h-full flex items-center justify-center z-10 opacity-35 sm:opacity-100">
                 {/* Glowing neon bars behind the model */}
                 <div className="absolute inset-y-12 right-0 sm:right-6 w-36 sm:w-56 flex flex-col justify-center space-y-4 sm:space-y-6 opacity-90">
                   <div className="h-3 sm:h-4.5 rounded-full border border-fuchsia-400 bg-fuchsia-950/20 shadow-[0_0_12px_#d946ef,inset_0_0_6px_#d946ef]"></div>
@@ -162,11 +162,11 @@ export default function HeroSection({ language, openAiStylist, setSelectedCatego
                 </div>
 
                 {/* Leaning Model - Beautiful High Resolution Colorful Fashion T-shirt Model */}
-                <div className="absolute bottom-0 h-[85%] sm:h-[95%] aspect-square flex items-end justify-center overflow-visible">
+                <div className="absolute bottom-0 h-[90%] sm:h-[95%] aspect-square flex items-end justify-center overflow-visible">
                   <img 
                     src="/images/t-Shirt.webp" 
                     alt="T-shirt model avatar" 
-                    className="h-[90%] object-contain filter drop-shadow-[0_12px_15px_rgba(0,0,0,0.18)] transform hover:scale-105 transition duration-500" 
+                    className="h-[95%] object-contain filter drop-shadow-[0_12px_15px_rgba(0,0,0,0.18)] transform hover:scale-105 transition duration-500" 
                     referrerPolicy="no-referrer"
                   />
                 </div>
@@ -233,7 +233,7 @@ export default function HeroSection({ language, openAiStylist, setSelectedCatego
                 
                 <button
                   onClick={() => {
-                    setSelectedCategory("shoes");
+                    setSelectedCategory("shoe");
                     const el = document.getElementById("shop-section");
                     if (el) el.scrollIntoView({ behavior: "smooth" });
                   }}
@@ -252,14 +252,14 @@ export default function HeroSection({ language, openAiStylist, setSelectedCatego
               <div className="absolute inset-4 border border-amber-900/10 rounded-2xl pointer-events-none"></div>
 
               {/* Left details */}
-              <div className="flex-1 text-left relative z-20 pl-2">
+              <div className="flex-1 text-left relative z-20 pl-2 max-w-[70%] sm:max-w-none">
                 <span className="text-[10px] md:text-xs font-bold uppercase tracking-[0.3em] text-emerald-800 dark:text-emerald-450 mb-2 block">
                   {language === "bn" ? "বাঙালিয়ানা হেরিটেজ" : "BENGALI HERITAGE"}
                 </span>
-                <h2 className="text-2xl sm:text-3xl md:text-5xl font-serif font-extrabold text-[#1c1917] dark:text-neutral-100 leading-tight">
+                <h2 className="text-xl xs:text-2xl sm:text-3xl md:text-5xl font-serif font-extrabold text-[#1c1917] dark:text-neutral-100 leading-tight">
                   ROYAL<br />PANJABI
                 </h2>
-                <p className="text-[11px] sm:text-xs text-amber-900/80 dark:text-amber-500 font-medium tracking-wide mt-2 font-serif italic">
+                <p className="text-[10px] sm:text-xs text-amber-900/80 dark:text-amber-500 font-medium tracking-wide mt-2 font-serif italic">
                   {language === "bn" ? "উৎসবের রঙে দেশী আভিজাত্য" : "Artisanal elegance for festive celebrations"}
                 </p>
                 
@@ -277,9 +277,9 @@ export default function HeroSection({ language, openAiStylist, setSelectedCatego
               </div>
 
               {/* Center Model wearing gorgeous outfit */}
-              <div className="relative w-[150px] sm:w-[220px] md:w-[320px] h-full flex items-center justify-center z-10">
+              <div className="absolute sm:relative bottom-0 right-0 sm:right-auto sm:bottom-auto w-[140px] sm:w-[220px] md:w-[320px] h-[85%] sm:h-full flex items-center justify-center z-10 opacity-35 sm:opacity-100">
                 <div className="absolute w-32 sm:w-48 aspect-square bg-[#E0D8C3] rounded-full opacity-40 blur-xl"></div>
-                <div className="absolute bottom-0 h-[85%] sm:h-[95%] aspect-square flex items-end justify-center overflow-visible">
+                <div className="absolute bottom-0 h-full aspect-square flex items-end justify-center overflow-visible">
                   <img 
                     src="/images/panjabi3.jpeg" 
                     alt="Heritage model" 
@@ -312,18 +312,18 @@ export default function HeroSection({ language, openAiStylist, setSelectedCatego
               <div className="absolute inset-y-0 left-0 w-3 bg-amber-800/20"></div>
 
               {/* Left stacked text */}
-              <div className="flex-1 text-left relative z-20 pl-2">
+              <div className="flex-1 text-left relative z-20 pl-2 max-w-[70%] sm:max-w-none">
                 <span className="text-[10px] md:text-xs font-bold uppercase tracking-[0.25em] text-neutral-400 mb-2 block">
                   {language === "bn" ? "হ্যান্ডক্রাফটেড শুজ" : "EXECUTIVE CLASS"}
                 </span>
-                <h2 className="text-2xl sm:text-3xl md:text-5xl font-extrabold text-neutral-900 dark:text-neutral-100 leading-none tracking-tight font-sans">
+                <h2 className="text-xl sm:text-2xl md:text-5xl font-extrabold text-neutral-900 dark:text-neutral-100 leading-none tracking-tight font-sans">
                   PREMIUM<br />FOOTWEAR
                 </h2>
                 
                 {/* Mobile Shop Action */}
                 <button
                   onClick={() => {
-                    setSelectedCategory("shoes");
+                    setSelectedCategory("shoe");
                     const el = document.getElementById("shop-section");
                     if (el) el.scrollIntoView({ behavior: "smooth" });
                   }}
@@ -334,9 +334,9 @@ export default function HeroSection({ language, openAiStylist, setSelectedCatego
               </div>
 
               {/* Center Shoes against Premium Layout */}
-              <div className="relative w-[150px] sm:w-[220px] md:w-[320px] h-full flex items-center justify-center z-10">
+              <div className="absolute sm:relative bottom-4 right-0 sm:right-auto sm:bottom-auto w-[145px] sm:w-[220px] md:w-[320px] h-[75%] sm:h-full flex items-center justify-center z-10 opacity-35 sm:opacity-100">
                 <div className="absolute w-28 sm:w-40 aspect-square bg-[#D97706]/10 rounded-full blur-xl"></div>
-                <div className="absolute bottom-4 h-[75%] sm:h-[85%] aspect-square flex items-end justify-center overflow-visible">
+                <div className="absolute bottom-4 h-[85%] aspect-square flex items-end justify-center overflow-visible">
                   <img 
                     src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=600" 
                     alt="Monk strap shoes" 
@@ -350,7 +350,7 @@ export default function HeroSection({ language, openAiStylist, setSelectedCatego
               <div className="hidden sm:block text-right z-20">
                 <button
                   onClick={() => {
-                    setSelectedCategory("shoes");
+                    setSelectedCategory("shoe");
                     const el = document.getElementById("shop-section");
                     if (el) el.scrollIntoView({ behavior: "smooth" });
                   }}

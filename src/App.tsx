@@ -672,7 +672,7 @@ export default function App() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-5 relative">
-            <div className="aspect-3/4 rounded-2xl overflow-hidden shadow-2xl border border-gray-100 dark:border-neutral-800 p-2 bg-white dark:bg-neutral-900">
+            <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl border border-gray-100 dark:border-neutral-800 p-2 bg-white dark:bg-neutral-900">
               <img
                 src="https://images.unsplash.com/photo-1617137968427-85924c800a22?q=80&w=600"
                 alt="Crafting men wear"

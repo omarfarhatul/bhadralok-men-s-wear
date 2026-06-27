@@ -95,15 +95,15 @@ export default function Navbar({
       </div>
 
       {/* Main Bar */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between gap-2">
         {/* Brand Logo */}
-        <div className="flex items-center space-x-2">
+        <div className="flex-shrink-0">
           <button
             onClick={() => setSelectedCategory("all")}
-            className="text-2xl sm:text-3xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100 hover:opacity-90 transition focus:outline-none cursor-pointer flex flex-col items-start leading-none"
+            className="text-lg xs:text-xl sm:text-2xl md:text-3xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100 hover:opacity-90 transition focus:outline-none cursor-pointer flex flex-col items-start leading-none"
           >
             <span className="font-serif tracking-widest text-emerald-800 dark:text-emerald-500">BHADRALOK</span>
-            <span className="text-[10px] tracking-[0.35em] text-gray-500 dark:text-neutral-400 font-sans uppercase mt-1">ভদ্রলোক • Men's Premium</span>
+            <span className="text-[8px] sm:text-[10px] tracking-[0.2em] sm:tracking-[0.35em] text-gray-500 dark:text-neutral-400 font-sans uppercase mt-1 hidden xs:block">ভদ্রলোক • Men's Premium</span>
           </button>
         </div>
 
@@ -128,10 +128,10 @@ export default function Navbar({
         </div>
 
         {/* Navigation Action Icons */}
-        <div className="flex items-center space-x-3 sm:space-x-5">
+        <div className="flex items-center space-x-1.5 xs:space-x-2.5 sm:space-x-4 md:space-x-5 flex-shrink-0">
           {/* Sign In / Register / Profile */}
           {currentUser ? (
-            <div className="flex items-center space-x-1.5 sm:space-x-2 text-xs text-gray-700 dark:text-neutral-300 bg-emerald-50/40 dark:bg-emerald-950/20 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 border border-emerald-100/60 dark:border-emerald-900/40 rounded-full py-1.5 px-3 transition">
+            <div className="hidden sm:flex items-center space-x-1.5 sm:space-x-2 text-xs text-gray-700 dark:text-neutral-300 bg-emerald-50/40 dark:bg-emerald-950/20 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 border border-emerald-100/60 dark:border-emerald-900/40 rounded-full py-1.5 px-3 transition">
               <div className="w-5.5 h-5.5 bg-emerald-800 dark:bg-emerald-600 text-white font-extrabold rounded-full flex items-center justify-center text-[10px] shadow-sm uppercase">
                 {currentUser.name.slice(0, 1)}
               </div>
@@ -147,7 +147,7 @@ export default function Navbar({
           ) : (
             <button
               onClick={onOpenAuth}
-              className="flex items-center space-x-1.5 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs font-bold text-gray-700 dark:text-neutral-300 bg-gray-50 dark:bg-neutral-800 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 border border-gray-200 dark:border-neutral-700 hover:border-emerald-200 transition cursor-pointer"
+              className="hidden sm:flex items-center space-x-1.5 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs font-bold text-gray-700 dark:text-neutral-300 bg-gray-50 dark:bg-neutral-800 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 border border-gray-200 dark:border-neutral-700 hover:border-emerald-200 transition cursor-pointer"
             >
               <User className="w-3.5 h-3.5 text-gray-500 dark:text-neutral-400" />
               <span className="hidden sm:inline">{language === "bn" ? "লগইন" : "Sign In"}</span>
@@ -157,31 +157,31 @@ export default function Navbar({
           {/* AI Stylist Prompt */}
           <button
             onClick={openAiStylist}
-            className="flex items-center space-x-1 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-400 border border-emerald-100 dark:border-emerald-900/40 hover:bg-emerald-100 dark:hover:bg-emerald-950/80 transition shadow-sm font-medium text-xs sm:text-sm animate-pulse cursor-pointer"
+            className="flex items-center space-x-1 px-2.5 py-1.5 sm:px-4 sm:py-2 rounded-full bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-400 border border-emerald-100 dark:border-emerald-900/40 hover:bg-emerald-100 dark:hover:bg-emerald-950/80 transition shadow-sm font-medium text-xs sm:text-sm animate-pulse cursor-pointer"
           >
             <Sparkles className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
             <span className="hidden sm:inline">{t.stylistButton}</span>
-            <span className="sm:hidden">AI</span>
+            <span className="sm:hidden xs:inline hidden">AI</span>
           </button>
 
-          {/* Order Tracking / History */}
+          {/* Order Tracking / History - Desktop/Tablet */}
           <button
             onClick={openOrders}
-            className="p-2 text-gray-700 dark:text-neutral-300 hover:text-emerald-800 dark:hover:text-emerald-400 hover:bg-gray-50 dark:hover:bg-neutral-850 rounded-full transition relative cursor-pointer"
+            className="hidden sm:block p-1.5 sm:p-2 text-gray-700 dark:text-neutral-300 hover:text-emerald-800 dark:hover:text-emerald-400 hover:bg-gray-50 dark:hover:bg-neutral-850 rounded-full transition relative cursor-pointer"
             title={t.trackButton}
           >
-            <History className="w-5 h-5" />
+            <History className="w-4.5 h-4.5 sm:w-5 sm:h-5" />
           </button>
 
           {/* Wishlist */}
           <button
             onClick={openWishlist}
-            className="p-2 text-gray-700 dark:text-neutral-300 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-gray-50 dark:hover:bg-neutral-850 rounded-full transition relative cursor-pointer"
+            className="p-1.5 sm:p-2 text-gray-700 dark:text-neutral-300 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-gray-50 dark:hover:bg-neutral-850 rounded-full transition relative cursor-pointer"
             title={t.wishlistLabel}
           >
-            <Heart className="w-5 h-5" />
+            <Heart className="w-4.5 h-4.5 sm:w-5 sm:h-5" />
             {wishlistCount > 0 && (
-              <span className="absolute top-1 right-1 bg-rose-500 text-white font-sans text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center">
+              <span className="absolute top-0.5 right-0.5 bg-rose-500 text-white font-sans text-[9px] sm:text-[10px] font-bold w-3.5 h-3.5 sm:w-4 sm:h-4 rounded-full flex items-center justify-center">
                 {wishlistCount}
               </span>
             )}
@@ -190,12 +190,12 @@ export default function Navbar({
           {/* Cart */}
           <button
             onClick={openCart}
-            className="p-2 text-gray-700 dark:text-neutral-300 hover:text-emerald-800 dark:hover:text-emerald-400 hover:bg-gray-50 dark:hover:bg-neutral-850 rounded-full transition relative cursor-pointer"
+            className="p-1.5 sm:p-2 text-gray-700 dark:text-neutral-300 hover:text-emerald-800 dark:hover:text-emerald-400 hover:bg-gray-50 dark:hover:bg-neutral-850 rounded-full transition relative cursor-pointer"
             title={t.cartLabel}
           >
-            <ShoppingBag className="w-5 h-5" />
+            <ShoppingBag className="w-4.5 h-4.5 sm:w-5 sm:h-5" />
             {cartCount > 0 && (
-              <span className="absolute top-1 right-1 bg-emerald-800 dark:bg-emerald-600 text-white font-sans text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center">
+              <span className="absolute top-0.5 right-0.5 bg-emerald-800 dark:bg-emerald-600 text-white font-sans text-[9px] sm:text-[10px] font-bold w-3.5 h-3.5 sm:w-4 sm:h-4 rounded-full flex items-center justify-center">
                 {cartCount}
               </span>
             )}
@@ -204,9 +204,9 @@ export default function Navbar({
           {/* Mobile Menu Toggle */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 text-gray-700 dark:text-neutral-300 hover:text-emerald-800 dark:hover:text-emerald-400 hover:bg-gray-50 dark:hover:bg-neutral-850 rounded-full transition cursor-pointer"
+            className="md:hidden p-1.5 sm:p-2 text-gray-700 dark:text-neutral-300 hover:text-emerald-800 dark:hover:text-emerald-400 hover:bg-gray-50 dark:hover:bg-neutral-850 rounded-full transition cursor-pointer"
           >
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {mobileMenuOpen ? <X className="w-5.5 h-5.5 sm:w-6 sm:h-6" /> : <Menu className="w-5.5 h-5.5 sm:w-6 sm:h-6" />}
           </button>
         </div>
       </div>
@@ -281,6 +281,20 @@ export default function Navbar({
                 );
               })}
             </div>
+          </div>
+
+          {/* Mobile Order History / Track Order Button */}
+          <div className="border-t border-gray-150 dark:border-neutral-800 pt-3">
+            <button
+              onClick={() => {
+                openOrders();
+                setMobileMenuOpen(false);
+              }}
+              className="w-full flex items-center justify-center space-x-2 py-2.5 bg-emerald-50 dark:bg-emerald-950/20 text-emerald-800 dark:text-emerald-400 border border-emerald-100 dark:border-emerald-900/40 rounded-xl hover:bg-emerald-100 dark:hover:bg-emerald-950/40 transition cursor-pointer text-xs font-semibold"
+            >
+              <History className="w-4 h-4" />
+              <span>{t.trackButton}</span>
+            </button>
           </div>
 
           {/* Mobile User Profile Section */}
