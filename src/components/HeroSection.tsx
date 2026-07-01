@@ -69,7 +69,7 @@ export default function HeroSection({ language, openAiStylist, setSelectedCatego
                 </div>
                 <div className="w-24 h-[85%] rounded-2xl overflow-hidden shadow-md transform rotate-3 hover:rotate-0 transition duration-300 mt-8">
                   <img 
-                    src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=600" 
+                    src="images/men1.jpg" 
                     alt="Tee model" 
                     className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"
@@ -109,7 +109,7 @@ export default function HeroSection({ language, openAiStylist, setSelectedCatego
               <div className="hidden md:flex items-center space-x-3 w-1/4 h-full justify-end relative z-10">
                 <div className="w-24 h-[85%] rounded-2xl overflow-hidden shadow-md transform -rotate-3 hover:rotate-0 transition duration-300">
                   <img 
-                    src="/images/panjabi_c.jpeg" 
+                    src="/images/men2.jpg" 
                     alt="Shirt model" 
                     className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"
@@ -281,7 +281,7 @@ export default function HeroSection({ language, openAiStylist, setSelectedCatego
                 <div className="absolute w-32 sm:w-48 aspect-square bg-[#E0D8C3] rounded-full opacity-40 blur-xl"></div>
                 <div className="absolute bottom-0 h-full aspect-square flex items-end justify-center overflow-visible">
                   <img 
-                    src="/images/panjabi3.jpeg" 
+                    src="/images/panjabi1.jpg" 
                     alt="Heritage model" 
                     className="h-full object-contain filter drop-shadow-[0_15px_18px_rgba(40,30,10,0.15)] transform hover:scale-105 transition duration-500" 
                     referrerPolicy="no-referrer"
